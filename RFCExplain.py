@@ -498,8 +498,8 @@ def main():
 	createSubDirectory(projectName,"Trees")
 	generateTreesPDF(model,projectName)
 
-	#createSubDirectory(projectName,"AttributesContribution")
-	#generateAttributeContribution(model,projectName,headers)
+	createSubDirectory(projectName,"AttributesContribution")
+	generateAttributeContribution(model,projectName,headers)
 
 	printPathsIntoFile(testX,model,projectName,headers)
 	
